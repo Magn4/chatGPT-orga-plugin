@@ -1,6 +1,6 @@
 # chatGPT-orga-plugin
 
-![Logo](https://github.com/Magn4/chatGPT-orga-plugin.git/images/logo.png)
+![Logo](https://github.com/Magn4/chatGPT-orga-plugin/blob/main/images/logo.png)
 
 A Chrome extension to organize ChatGPT chats by pinning and grouping them.
 
