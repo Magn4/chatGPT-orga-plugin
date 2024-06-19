@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "ChatGPT Organizer",
+    "version": "1.0",
+    "description": "Organize your ChatGPT conversations with ease.",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "scripts": ["dist/background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "public/popup.html",
+      "default_icon": {
+        "16": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+      }
+    },
+    "icons": {
+      "16": "images/logo.png",
+      "48": "images/logo.png",
+      "128": "images/logo.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["dist/content.js"]
+      }
+    ]
+  }
+  
